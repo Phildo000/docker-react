@@ -1,0 +1,60 @@
+1001  node -v
+1002  which node
+1003  brew install node
+1004  node -v
+1005  npx create-react-app client
+1006  ls
+1007  ls client/
+1008  cd client
+1009  npm run test
+1010  ls
+1011  ls ../
+1012  npm run test
+1013  cd ../
+1014  ls
+1015  rm client/
+1016  rm -rf client/
+1017  brew install yarn
+1018  npx create-react-app frontend
+1019  cd frontend/
+1020  npm run test
+1021  npm run build
+1022  ls
+1023  ls build
+1024  ls build/static/
+1025  ls build/static/js/
+1026  npm run start
+1027  docker build .
+1028  docker build -f Dockerfile.dev .
+1029  ls
+1030  rm -rf node_modules/
+1031  docker build -f Dockerfile.dev .
+1032  docker run 1c67c8397908
+1033* docker run -p 3000:3000 -v $(pwd):/app 1c67c8397908
+1034  pwd
+1035  ls
+1036  docker build -f Dockerfile.dev .
+1037  docker run -p 3000:3000 -v $(pwd):/app 27cc3418b8f0
+1038  docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 27cc3418b8f0
+1039  docker-compose up
+1040  docker-compose up
+1041  docker build -f Dockerfile.dev .
+1042  docker run c3da2f37396d npm run test
+1043  docker run -it c3da2f37396d npm run test
+1044  docker-compose up
+1045  docker-compose up --build
+1046  docker-compose up --build
+1047  docker build .
+1048  docker run -p 8080:80 79f1bbc23947
+
+
+552  cd ../
+553  cd frontend/
+554  docker ps
+555  docker exec -it a7f208b9cc6d npm run test
+556  docker ps
+557  docker attach b31e22a0d056
+558  docker exec -it b31e22a0d056 sh
+559  docker ps
+560  docker ps
+561  docker exec -it 193dca9e3ec5 sh
